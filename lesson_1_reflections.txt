@@ -30,3 +30,23 @@ While automatically saving every time interval makes it too
 messy and unorganized, hence, unefficient, time and history
 wasting. Making it very hard to get back to a version in the
 past.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because some files are interrelated to each other makes it essential to check both of them in Git.
+while Google docs automatically saves changes and it doesn't care wether the files are co-related 
+or not.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+I use git log to find the commit i am looking for by reading the commit logs msgs, then i use git diff (oldID) (newID) to find the differences that this commit has done.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Every change that i make is documented and saved on my wish.
+So whenever i am making a change that i am afraid to do, i simply commit and go for it. And whenever i want the old version back i checkout to the best version i need.
+
+

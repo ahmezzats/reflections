@@ -1,0 +1,23 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a git repository for me in that folder so i can start commiting and make a log history in order to track my code or even push it later to global server.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is the phase between working directory and area of files to commit
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By running git diff --staged I can make sure what differences are there between the staging area and the repository
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It is helpful when you want to try a new odd version of the code and you don't want to mess up your original code, so you make a branch, write the experimental or the odd version of the code, if it was satfisfactory you can merge both branches and update your original code.
+
+
+How do the diagrams help you visualize the branch structure?
+
+It helped showing the multiple branches shd the parent commits, and how each commit points to the one behind it by an arrow. As well as showing how a commit can be lost if we didn't create a branch for it, it can as it never existed.
